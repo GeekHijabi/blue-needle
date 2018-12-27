@@ -2,11 +2,11 @@
 
 @include mat-core();
 
-$needles-primary: mat-palette($mat-indigo);
-$needles-accent:  mat-palette($mat-light-blue);
-$needles-warn:    mat-palette($mat-red);
+$primary: mat-palette($mat-indigo);
+$accent:  mat-palette($mat-cyan, 50);
+$warn:    mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$needles-theme: mat-light-theme($needles-primary, $needles-accent, $needles-warn);
+$needles-theme: mat-light-theme($primary, $accent, $warn);
 
 @include angular-material-theme($needles-theme);
