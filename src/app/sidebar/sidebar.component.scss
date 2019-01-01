@@ -1,4 +1,5 @@
 @import '../../needles-theme';
+@import url('https://fonts.googleapis.com/css?family=Charm');
 
 $primary: map-get($needles-theme , primary);
 $light-nav: map-get($needles-theme , light-nav);
@@ -8,7 +9,7 @@ $light-nav: map-get($needles-theme , light-nav);
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 3;
 }
 
 .mat-drawer.mat-drawer-side {
@@ -39,3 +40,9 @@ $light-nav: map-get($needles-theme , light-nav);
   cursor: pointer;
 }
 
+.header {
+  font-family: 'Charm', cursive;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}

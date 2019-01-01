@@ -1,0 +1,30 @@
+<app-sidebar></app-sidebar>
+<div class="container" *ngIf="product">
+  <div class="left-container">
+    <h3 class="product-heading">{{product.name}}</h3>
+    <div>
+      <p class="description">Description</p>
+      <p class="product-description">{{product.description}}</p>
+    </div>
+    <div>
+      <h4 class="materials">Materials</h4>
+      <p class="mats">{{product.materials}}</p>
+    </div>
+    <div>
+      <h3 class="colours">Colors</h3>
+      <div class="oval">
+        <div class="oval-1"></div>
+        <div class="oval-2"></div>
+        <div class="oval-3"></div>
+      </div>
+    </div>
+    <div>
+      <button class="order-button"><span class="order">Order Now</span></button>
+    </div>
+  </div>
+  <div class="right-container">
+    <div>
+   <img class="img" src={{product.img}} alt="image">
+    </div>
+  </div>
+</div>

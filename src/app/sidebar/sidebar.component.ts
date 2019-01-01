@@ -12,8 +12,4 @@ export class SidebarComponent implements OnInit {
   ngOnInit() {
   }
 
-  igLink() {
-    return 'www.google.com'
-  }
-
 }
