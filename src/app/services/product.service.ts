@@ -47,7 +47,7 @@ export class ProductsService {
       },
       {
         id: 5,
-        productName: 'Tha Bomb Attire',
+        name: 'Tha Bomb Attire',
         description: 'A particular description of the whole attire goes right in this space below the product name',
         materials: '92% Cotton, 1% Rubber',
         img: 'https://res.cloudinary.com/geek-hijabi/image/upload/v1520270057/book3_bj190e.jpg'

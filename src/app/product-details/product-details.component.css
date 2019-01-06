@@ -105,6 +105,8 @@
   border-radius: 25px;
   background-color: #33C0E0;
   margin-top: 3em;
+  outline: none;
+  border: 0;
 }
 
 .order {
@@ -119,4 +121,5 @@
 .img {
   height: 700px;
   width: 518px;
+  object-fit: cover;
 }

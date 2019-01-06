@@ -46,3 +46,12 @@ $light-nav: map-get($needles-theme , light-nav);
   display: flex;
   justify-content: center;
 }
+
+.mat-drawer-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}

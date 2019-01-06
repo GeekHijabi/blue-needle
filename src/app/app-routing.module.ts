@@ -6,11 +6,6 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { SidebarComponent } from './sidebar/sidebar.component';
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   pathMatch: 'full',
-  //   component: SidebarComponent,
-  // },
   {
     path: '',
     component: ProductsComponent
