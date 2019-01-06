@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 0 21%;
+  height: 100px;
+  background-color: blue;
+}
+
+mat-card {
+  margin-bottom: 30px;
+  height: 400px;
+  width: 400px;
+  margin-left: 0.5em;
+}
+
+mat-card img{
+  height: 115%;
+}
+
+.prdouct-pg {
+  margin-right:7em;
+  margin-left: 2em;
+}

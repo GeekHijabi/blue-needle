@@ -1,0 +1,57 @@
+@import '../../needles-theme';
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+$primary: map-get($needles-theme , primary);
+$light-nav: map-get($needles-theme , light-nav);
+
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 3;
+}
+
+.mat-drawer.mat-drawer-side {
+  @include angular-material-theme($needles-theme);
+  background:  #EEFAFF;
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 167px;
+
+}
+
+.sidebar-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.header {
+  font-family: 'Charm', cursive;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.mat-drawer-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}

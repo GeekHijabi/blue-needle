@@ -1,0 +1,37 @@
+<div class="container" *ngIf="product">
+  <a class="button button__nav button__no-margin"
+    routerLink="/">
+    <span><svg style="width:36px;height:36px" viewBox="0 0 36 36">
+        <path fill="#000000"
+          d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"
+          />
+        </svg></span>
+    </a>
+    <div class="left-container">
+      <h3 class="product-heading">{{product.name}}</h3>
+      <div>
+        <p class="description">Description</p>
+        <p class="product-description">{{product.description}}</p>
+      </div>
+      <div>
+        <h4 class="materials">Materials</h4>
+        <p class="mats">{{product.materials}}</p>
+      </div>
+      <div>
+        <h3 class="colours">Colors</h3>
+        <div class="oval">
+          <div class="oval-1"></div>
+          <div class="oval-2"></div>
+          <div class="oval-3"></div>
+        </div>
+      </div>
+      <div>
+        <button class="order-button"><span class="order">Order Now</span></button>
+      </div>
+    </div>
+    <div class="right-container">
+      <div>
+        <img class="img" src={{product.img}} alt="image">
+      </div>
+    </div>
+  </div>
